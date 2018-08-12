@@ -1,0 +1,5 @@
+{
+  "prettier.parser": "flow",
+  "flow.useNPMPackagedFlow": true,
+  "javascript.validate.enable": false
+}
