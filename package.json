@@ -1,12 +1,14 @@
 {
 	"scripts": {
 		"api": "node ratingsAPI.js",
-		"build": "webpack",
+		"build": "NODE_ENV=production webpack -p",
+		"build:dev": "NODE_ENV=development webpack -d",
 		"dev": "webpack-dev-server",
 		"watch": "webpack --watch",
 		"test": "jest",
 		"test:update": "jest -u",
-		"test:coverage": "jest --coverage"
+		"test:coverage": "jest --coverage",
+		"start": "NOTE_ENV=server node server.js"
 	},
 	"jest": {
 		"snapshotSerializers": [

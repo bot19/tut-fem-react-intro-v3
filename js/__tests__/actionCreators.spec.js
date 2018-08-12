@@ -1,5 +1,6 @@
 import moxios from "moxios";
-import { setSearchTerm, addAPIData, getAPIDetails } from "../actionCreators";
+import { setSearchTerm, addAPIData } from "../actionCreators";
+import getAPIDetails from "../AsyncActions";
 
 const strangerThings = {
 	title: "Stranger Things",
